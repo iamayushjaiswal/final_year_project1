@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Voting System</h1>
+    </header>
+    <main>
+        <section class="voting-section">
+            <h2>Vote for Your Favorite Party</h2>
+            <form id="voteForm">
+                <div class="party-option">
+                    <input type="radio" id="party1" name="party" value="Party 1" required>
+                    <label for="party1">Party 1</label>
+                </div>
+                <div class="party-option">
+                    <input type="radio" id="party2" name="party" value="Party 2">
+                    <label for="party2">Party 2</label>
+                </div>
+                <div class="party-option">
+                    <input type="radio" id="party3" name="party" value="Party 3">
+                    <label for="party3">Party 3</label>
+                </div>
+                <div class="party-option">
+                    <input type="radio" id="party4" name="party" value="Party 4">
+                    <label for="party4">Party 4</label>
+                </div>
+                <button type="submit">Vote</button>
+            </form>
+        </section>
+        <section class="result-section">
+            <h2>Vote Result</h2>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
