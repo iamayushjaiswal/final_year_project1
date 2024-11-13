@@ -75,6 +75,6 @@ document.getElementById('vote-button').addEventListener('click', async () => {
 
 contract.on('VoteCast', (party, votes) => {
     console.log(`New vote for ${party}: ${votes}`);
-    // Update the UI with new vote counts
+    //abi and contract addrsess not available
   });
   
